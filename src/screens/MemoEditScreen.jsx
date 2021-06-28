@@ -27,7 +27,7 @@ export default function MemoEditScreen(props) {
         })
         .catch((error) => {
           Alert.alert(error.code);
-        })
+        });
     }
   }
 
@@ -54,7 +54,6 @@ MemoEditScreen.propTypes = {
     params: shape({ id: string }),
   }).isRequired,
 };
-
 
 const styles = StyleSheet.create({
   container: {
