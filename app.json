@@ -19,11 +19,13 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "keita0724-memoapp",
+      "bundleIdentifier": "jp.co.keita0724memoapp",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "keita0724-memoapp",
+      "package": "jp.co.keita0724memoapp",
+      "versionCode": 1,
+      "permissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptiveicon1.png",
         "backgroundImage": "./assets/adaptiveicon2.png"
